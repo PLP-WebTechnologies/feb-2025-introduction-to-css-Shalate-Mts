@@ -1,0 +1,62 @@
+/* Styling the header */
+.header {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Macondo', serif;
+}
+
+/* Styling the navigation links */
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #f8b400;
+}
+
+/* Styling the main content */
+main {
+    font-family: 'Macondo', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Styling the recipe container */
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid #f8b400;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff8e1;
+}
+
+/* Styling the recipe content */
+.recipe-content {
+    flex: 1;
+    margin-right: 15px;
+}
+
+/* Styling the recipe image */
+.recipe-image {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+/* Styling the footer */
+.footer {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
